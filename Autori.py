@@ -1,6 +1,6 @@
 # This python code is meant to take a single string that is in a
-# long naming variation (ex. Knuth-Morris-Prat) and change it
-# to a short variation (ex. KMP)
+# long naming variation (ex. Apple-Boy-Cat) and change it
+# to a short variation (ex. ABC)
 
 import sys
 # Receive user input as string
