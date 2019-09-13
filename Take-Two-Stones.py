@@ -16,14 +16,13 @@ if nStones > 10000000 or nStones < 1:
     sys.exit()
 
 # Determine if even or odd
-# 1 automatically qualifies as a remainder that is odd
-# If odd remainder, Alice wins the game
 # If even remainder, Bob wins the game
-if nStones == 1:
-    print("Alice")
-elif nStones % 2 == 0:
+# If odd remainder, Alice wins the game
+if nStones % 2 == 0:
     nStonesEven = True
     print("Bob")
 else:
     nStonesOdd = True
     print("Alice")
+
+
