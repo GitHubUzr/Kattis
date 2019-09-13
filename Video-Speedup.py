@@ -16,10 +16,7 @@ try:
 
     # receives input from second line
     # and creates an object to hold the values
-    tsList = input().split()
-    
-    # converts list str values to int
-    tsList = list(map(int, tsList))
+    tsList = list(map(int, input().split()))
     
 
     # Verify n is between 1 and 5000 (inclusive)
