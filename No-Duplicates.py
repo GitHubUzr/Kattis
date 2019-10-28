@@ -1,3 +1,8 @@
+''' This python code is meant to answer 'yes'
+if each word is unique and answer no if there
+are duplicates of a word for an inputted string (all caps)
+'''
+
 # break the line into each word and put into list n
 n = [str(word) for word in input().split()]
 # create a blank list m ; this will all the unique words
